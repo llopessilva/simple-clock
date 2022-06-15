@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Digital Display';
+  src: url('fonts/Digital Display.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+  font-family: 'Digital Display';
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+  margin: 250px auto 0;
+}
+
+.clock-container {
+  font-size: 5rem;
+  text-align: center;
+  margin: 100px auto 0;
+  color: #fff;
+}
+
+.clock-container span {
+  background-color: #006ce6;
+  padding: 20px;
+  border-radius: 5px;
+}

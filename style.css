@@ -14,7 +14,6 @@
 body {
   background-color: #212121;
   font-family: 'Digital Display';
-  font-size: 2rem;
 }
 
 h1 {
@@ -22,10 +21,11 @@ h1 {
   color: #fff;
   text-align: center;
   margin: 250px auto 0;
+  font-size: 4rem;
 }
 
 .clock-container {
-  font-size: 5rem;
+  font-size: 8rem;
   text-align: center;
   margin: 100px auto 0;
   color: #fff;
@@ -33,7 +33,4 @@ h1 {
 
 .clock-container span {
   color: red;
-  /* background-color: #006ce6; */
-  /* padding: 20px; */
-  border-radius: 5px;
 }
